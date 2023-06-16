@@ -187,7 +187,6 @@ main {
 .details {
     width: 100%;
     display: flex;
-    gap: 2rem;
 }
 
 .articles {
@@ -215,7 +214,7 @@ main {
 
 .article-details h2 {
     font-size: 1.5rem;
-    width: 60%;
+    width: 100%;
 }
 
 .article-details .time {
@@ -229,9 +228,35 @@ main {
 
 }
 
+.theme-details {
+    margin-top: 1rem;
+    padding: 1rem;
+    width: 35%;
+    height: 100%;
+}
+
 .person-details {
     display: flex;
     gap: .5rem;
 }
 
+.chats {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    grid-template-areas: 
+        "part part"
+        "part part" ;
+    gap: 1rem;
+}
 
+.part {
+    background-color: lightblue;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.chats img {
+    width: 4.2rem;
+}
