@@ -250,6 +250,10 @@ main {
     gap: 1rem;
 }
 
+.chats img {
+    width: 4.2rem;
+}
+
 .part {
     background-color: lightblue;
     text-align: center;
@@ -257,6 +261,80 @@ main {
     border-radius: 10px;
 }
 
-.chats img {
-    width: 4.2rem;
+.videos {
+    display: grid;
+    grid-template-columns: 1fr 200px;
+    gap: 1rem;
+}
+
+.left-vid {
+    background-color: blue;
+    border-radius: 10px;
+    color: white;
+}
+
+
+.video-detail-1, .video-detail-2 {
+    width: 100%;
+    padding: 1rem;
+    background-color: blue;
+    border-radius: 10px;
+    color: white;
+}
+
+.video-detail-1 {
+    margin-bottom: 1rem;
+}
+
+.video-detail-1 h6, .video-detail-2 h6 {
+    margin-bottom: 2rem;
+}
+
+.video-detail-1 p {
+    font-size: .7rem;
+    margin-top: 1rem;
+}
+
+.video-detail-2 p {
+    font-size: .7rem;
+}
+
+.article-details h2 {
+    font-size: 1.5rem;
+    width: 100%;
+    margin-bottom: 4rem;
+}
+
+.video-details .time {
+    background-color: aquamarine;
+    width: 5rem;
+    padding: .5rem;
+    border-radius: 10px;
+    display: flex;
+    gap: .5rem;
+    margin: 1.5rem 0 2rem 0;
+
+}
+
+.teachers {
+    margin-top: 1rem;
+    padding: 1rem;
+    width: 35%;
+    height: 100%;
+}
+
+.title-tea {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.teacher-item {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 1rem;
+}
+
+.teacher-details h5{
+    padding-bottom: .5rem;
 }
